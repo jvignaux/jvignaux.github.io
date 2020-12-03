@@ -10237,6 +10237,47 @@ form .row:first-child .floating-label-form-group {
 }
 
 /* Custom */
+.custom_block {
+    background: #1B4965;
+    color: white;
+    height: 16.2rem;;
+    text-align: center;
+    padding: 1.2rem;
+    margin-right: 12%;
+    margin-top: 8%;
+}
+
+.second_block {
+    background: rgba(98, 182, 203);
+    font-size: 1.5rem;
+    position: absolute;
+    height: auto;
+    width: 19.2rem;
+    padding: 1.5rem;
+    left: 31%;
+    top: 34%;
+    z-index:999;
+}
+.pilars_partOne {
+    margin-right: -12%;
+}
+.pilars_partTwo {
+    margin-bottom: 8%;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .custom_block {
+        margin-top: 23%;
+    }
+
+    .second_block {
+        left: 17%;
+    }
+
+    .pilars_partOne, .pilars_partTwo, .pilars_partThree {
+        margin: auto;
+    }
+}
 
 /* Sprites */
 .bg-petite {
