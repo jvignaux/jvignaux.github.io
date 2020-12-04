@@ -10408,6 +10408,14 @@ form .row:first-child .floating-label-form-group {
     .pilars_partOne, .pilars_partTwo, .pilars_partThree {
         margin: auto;
     }
+
+    .pilars_partOne .custom_block {
+        margin-bottom: 35%;
+    }
+
+     .pilars_partTwo .custom_block {
+            margin-bottom: 35%;
+        }
 }
 
 /* Sprites */
