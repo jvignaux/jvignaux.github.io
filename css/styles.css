@@ -2202,7 +2202,7 @@ textarea.form-control {
 .was-validated .custom-select:valid, .custom-select.is-valid {
   border-color: #28a745;
   padding-right: calc(0.75em + 2.3125rem);
-  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 0.75rem center/8px 10px, url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") #fff no-repeat center right 1.75rem/calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 0.75rem center/8px 0.625rem, url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") #fff no-repeat center right 1.75rem/calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
 }
 .was-validated .custom-select:valid:focus, .custom-select.is-valid:focus {
   border-color: #28a745;
@@ -2295,7 +2295,7 @@ textarea.form-control {
 .was-validated .custom-select:invalid, .custom-select.is-invalid {
   border-color: #dc3545;
   padding-right: calc(0.75em + 2.3125rem);
-  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 0.75rem center/8px 10px, url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e") #fff no-repeat center right 1.75rem/calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
+  background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 0.75rem center/8px 0.625rem, url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e") #fff no-repeat center right 1.75rem/calc(0.75em + 0.375rem) calc(0.75em + 0.375rem);
 }
 .was-validated .custom-select:invalid:focus, .custom-select.is-invalid:focus {
   border-color: #dc3545;
@@ -3604,7 +3604,7 @@ input[type=button].btn-block {
   line-height: 1.5;
   color: #495057;
   vertical-align: middle;
-  background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 0.75rem center/8px 10px;
+  background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='5' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 0.75rem center/8px 0.625rem;
   border: 0.125rem solid #ced4da;
   border-radius: 0.5rem;
   -webkit-appearance: none;
@@ -5950,15 +5950,15 @@ a.close.disabled {
   box-sizing: content-box;
   flex: 0 1 auto;
   width: 30px;
-  height: 3px;
-  margin-right: 3px;
-  margin-left: 3px;
+  height: 0.188rem;
+  margin-right: 0.188rem;
+  margin-left: 0.188rem;
   text-indent: -999px;
   cursor: pointer;
   background-color: #fff;
   background-clip: padding-box;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
+  border-top: 0.625rem solid transparent;
+  border-bottom: 0.625rem solid transparent;
   opacity: 0.5;
   transition: opacity 0.6s ease;
 }
@@ -10256,17 +10256,17 @@ form .row:first-child .floating-label-form-group {
 }
 .second_block {
     padding: 1.5rem;
-    -webkit-box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0.625rem 0.625rem 22px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0.625rem 0.625rem 22px 0px rgba(0,0,0,0.75);
+    box-shadow: 0.625rem 0.625rem 22px 0px rgba(0,0,0,0.75);
 }
 
 .site_block {
     border-radius: 50%;
     padding: 2.4rem;
-    -webkit-box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0.625rem 0.625rem 22px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0.625rem 0.625rem 22px 0px rgba(0,0,0,0.75);
+    box-shadow: 0.625rem 0.625rem 22px 0px rgba(0,0,0,0.75);
 }
 .pilars_partOne {
     margin-right: -12%;
@@ -10423,22 +10423,22 @@ form .row:first-child .floating-label-form-group {
 .petite, .sictiam, .waiabe, .portrait
 { display: inline-block; background: url('sprites.jpeg') no-repeat; overflow: hidden; text-indent: -9999px; text-align: left; }
 
-.img-3601 { background-position: -1px -0px; width: 332px; height: 179px; }
-.aidants { background-position: -1px -180px; width: 332px; height: 179px; }
-.ara { background-position: -1px -360px; width: 332px; height: 179px; }
-.aramonitoring { background-position: -1px -540px; width: 332px; height: 179px; }
-.mnca { background-position: -1px -720px; width: 332px; height: 179px; }
-.petite { background-position: -1px -900px; width: 332px; height: 179px; }
-.sictiam { background-position: -1px -1080px; width: 332px; height: 179px; }
-.waiabe { background-position: -1px -1260px; width: 332px; height: 179px; }
+.img-3601 { background-position: -1px -0px; width: 20.75rem; height: 11.188rem; }
+.aidants { background-position: -1px -180px; width: 20.75rem; height: 11.188rem; }
+.ara { background-position: -1px -360px; width: 20.75rem; height: 11.188rem; }
+.aramonitoring { background-position: -1px -540px; width: 20.75rem; height: 11.188rem; }
+.mnca { background-position: -1px -720px; width: 20.75rem; height: 11.188rem; }
+.petite { background-position: -1px -900px; width: 20.75rem; height: 11.188rem; }
+.sictiam { background-position: -1px -1080px; width: 20.75rem; height: 11.188rem; }
+.waiabe { background-position: -1px -1260px; width: 20.75rem; height: 11.188rem; }
 .portrait {
     background-position: -1px -1440px;
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    -webkit-box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.75);
-    box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0.625rem 0.625rem 22px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0.625rem 0.625rem 22px 0px rgba(0,0,0,0.75);
+    box-shadow: 0.625rem 0.625rem 22px 0px rgba(0,0,0,0.75);
 }
 /* Snow animation */
 .snow {
@@ -10518,7 +10518,7 @@ form .row:first-child .floating-label-form-group {
 .santa {
   position: absolute;
   left: 50%;
-  bottom: 130px;
+  bottom: 8.125rem;
   -webkit-transform: translateX(-50%);
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
@@ -10571,12 +10571,12 @@ form .row:first-child .floating-label-form-group {
     -o-transform: translateX(-50%);
     transform: translateX(-50%); }
     .santa .head .face {
-      width: 120px;
-      height: 130px;
+      width: 7.5rem;
+      height: 8.125rem;
       background: #edcab0;
       background: radial-gradient(#edcab0, #e9a982);
       border-radius: 50%;
-      border: 3px solid #f8e7dc; }
+      border: 0.188rem solid #f8e7dc; }
       .santa .head .face .redhat .whitepart {
         position: absolute;
         left: 50%;
@@ -10593,8 +10593,8 @@ form .row:first-child .floating-label-form-group {
         z-index: 4;
         box-shadow: 0px 6px 0px -4px rgba(0, 0, 0, 0.1); }
       .santa .head .face .redhat .redpart {
-        width: 120px;
-        height: 120px;
+        width: 7.5rem;
+        height: 7.5rem;
         background: #de2f32;
         position: absolute;
         top: -50px;
@@ -10688,7 +10688,7 @@ form .row:first-child .floating-label-form-group {
           background: #edcab0;
           position: absolute;
           z-index: 3;
-          box-shadow: inset -3px -3px 0px #e9a982;
+          box-shadow: inset -0.188rem -0.188rem 0px #e9a982;
           left: 50%;
           -webkit-transform: translateX(-50%);
           -moz-transform: translateX(-50%);
@@ -10777,37 +10777,37 @@ form .row:first-child .floating-label-form-group {
     top: 0px; }
 
   2% {
-    top: -3px; }
+    top: -0.188rem; }
 
   4% {
     top: 0px; }
 
   8% {
-    top: -3px; }
+    top: -0.188rem; }
 
   10% {
     top: 0px; }
 
   12% {
-    top: -3px; }
+    top: -0.188rem; }
 
   14% {
     top: 0px; }
 
   18% {
-    top: -3px; }
+    top: -0.188rem; }
 
   20% {
     top: 0px; }
 
   22% {
-    top: -3px; }
+    top: -0.188rem; }
 
   24% {
     top: 0px; }
 
   28% {
-    top: -3px; }
+    top: -0.188rem; }
 
   30% {
     top: 0px; }
@@ -10819,37 +10819,37 @@ form .row:first-child .floating-label-form-group {
     top: 0px; }
 
   2% {
-    top: -3px; }
+    top: -0.188rem; }
 
   4% {
     top: 0px; }
 
   8% {
-    top: -3px; }
+    top: -0.188rem; }
 
   10% {
     top: 0px; }
 
   12% {
-    top: -3px; }
+    top: -0.188rem; }
 
   14% {
     top: 0px; }
 
   18% {
-    top: -3px; }
+    top: -0.188rem; }
 
   20% {
     top: 0px; }
 
   22% {
-    top: -3px; }
+    top: -0.188rem; }
 
   24% {
     top: 0px; }
 
   28% {
-    top: -3px; }
+    top: -0.188rem; }
 
   30% {
     top: 0px; }
@@ -10861,37 +10861,37 @@ form .row:first-child .floating-label-form-group {
     top: 0px; }
 
   2% {
-    top: -3px; }
+    top: -0.188rem; }
 
   4% {
     top: 0px; }
 
   8% {
-    top: -3px; }
+    top: -0.188rem; }
 
   10% {
     top: 0px; }
 
   12% {
-    top: -3px; }
+    top: -0.188rem; }
 
   14% {
     top: 0px; }
 
   18% {
-    top: -3px; }
+    top: -0.188rem; }
 
   20% {
     top: 0px; }
 
   22% {
-    top: -3px; }
+    top: -0.188rem; }
 
   24% {
     top: 0px; }
 
   28% {
-    top: -3px; }
+    top: -0.188rem; }
 
   30% {
     top: 0px; }
@@ -10903,37 +10903,37 @@ form .row:first-child .floating-label-form-group {
     top: 0px; }
 
   2% {
-    top: -3px; }
+    top: -0.188rem; }
 
   4% {
     top: 0px; }
 
   8% {
-    top: -3px; }
+    top: -0.188rem; }
 
   10% {
     top: 0px; }
 
   12% {
-    top: -3px; }
+    top: -0.188rem; }
 
   14% {
     top: 0px; }
 
   18% {
-    top: -3px; }
+    top: -0.188rem; }
 
   20% {
     top: 0px; }
 
   22% {
-    top: -3px; }
+    top: -0.188rem; }
 
   24% {
     top: 0px; }
 
   28% {
-    top: -3px; }
+    top: -0.188rem; }
 
   30% {
     top: 0px; }
@@ -11110,10 +11110,10 @@ form .row:first-child .floating-label-form-group {
     bottom: -28px; } }
 @-webkit-keyframes headLaugh {
   0% {
-    bottom: 83px; }
+    bottom: 80.188rem; }
 
   45% {
-    bottom: 83px; }
+    bottom: 80.188rem; }
 
   50% {
     bottom: 90px; }
@@ -11122,16 +11122,16 @@ form .row:first-child .floating-label-form-group {
     bottom: 90px; }
 
   98% {
-    bottom: 83px; }
+    bottom: 80.188rem; }
 
   100% {
-    bottom: 83px; } }
+    bottom: 80.188rem; } }
 @-moz-keyframes headLaugh {
   0% {
-    bottom: 83px; }
+    bottom: 80.188rem; }
 
   45% {
-    bottom: 83px; }
+    bottom: 80.188rem; }
 
   50% {
     bottom: 90px; }
@@ -11140,16 +11140,16 @@ form .row:first-child .floating-label-form-group {
     bottom: 90px; }
 
   98% {
-    bottom: 83px; }
+    bottom: 80.188rem; }
 
   100% {
-    bottom: 83px; } }
+    bottom: 80.188rem; } }
 @-ms-keyframes headLaugh {
   0% {
-    bottom: 83px; }
+    bottom: 80.188rem; }
 
   45% {
-    bottom: 83px; }
+    bottom: 80.188rem; }
 
   50% {
     bottom: 90px; }
@@ -11158,16 +11158,16 @@ form .row:first-child .floating-label-form-group {
     bottom: 90px; }
 
   98% {
-    bottom: 83px; }
+    bottom: 80.188rem; }
 
   100% {
-    bottom: 83px; } }
+    bottom: 80.188rem; } }
 @keyframes headLaugh {
   0% {
-    bottom: 83px; }
+    bottom: 80.188rem; }
 
   45% {
-    bottom: 83px; }
+    bottom: 80.188rem; }
 
   50% {
     bottom: 90px; }
@@ -11176,16 +11176,16 @@ form .row:first-child .floating-label-form-group {
     bottom: 90px; }
 
   98% {
-    bottom: 83px; }
+    bottom: 80.188rem; }
 
   100% {
-    bottom: 83px; } }
+    bottom: 80.188rem; } }
 @-webkit-keyframes mouthLaugh {
   0% {
-    width: 20px; }
+    width: 1.25rem; }
 
   45% {
-    width: 20px; }
+    width: 1.25rem; }
 
   50% {
     width: 15px; }
@@ -11194,16 +11194,16 @@ form .row:first-child .floating-label-form-group {
     width: 15px; }
 
   98% {
-    width: 20px; }
+    width: 1.25rem; }
 
   100% {
-    width: 20px; } }
+    width: 1.25rem; } }
 @-moz-keyframes mouthLaugh {
   0% {
-    width: 20px; }
+    width: 1.25rem; }
 
   45% {
-    width: 20px; }
+    width: 1.25rem; }
 
   50% {
     width: 15px; }
@@ -11212,16 +11212,16 @@ form .row:first-child .floating-label-form-group {
     width: 15px; }
 
   98% {
-    width: 20px; }
+    width: 1.25rem; }
 
   100% {
-    width: 20px; } }
+    width: 1.25rem; } }
 @-ms-keyframes mouthLaugh {
   0% {
-    width: 20px; }
+    width: 1.25rem; }
 
   45% {
-    width: 20px; }
+    width: 1.25rem; }
 
   50% {
     width: 15px; }
@@ -11230,16 +11230,16 @@ form .row:first-child .floating-label-form-group {
     width: 15px; }
 
   98% {
-    width: 20px; }
+    width: 1.25rem; }
 
   100% {
-    width: 20px; } }
+    width: 1.25rem; } }
 @keyframes mouthLaugh {
   0% {
-    width: 20px; }
+    width: 1.25rem; }
 
   45% {
-    width: 20px; }
+    width: 1.25rem; }
 
   50% {
     width: 15px; }
@@ -11248,10 +11248,10 @@ form .row:first-child .floating-label-form-group {
     width: 15px; }
 
   98% {
-    width: 20px; }
+    width: 1.25rem; }
 
   100% {
-    width: 20px; } }
+    width: 1.25rem; } }
 
 .text-blur-out {
 	-webkit-animation: text-blur-out 1.2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
