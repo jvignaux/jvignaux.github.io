@@ -162,7 +162,7 @@ a {
   background-color: transparent;
 }
 a:hover {
-  color: #1b4965;
+  color: #1A252F;
   text-decoration: underline;
 }
 
@@ -2448,8 +2448,8 @@ fieldset:disabled a.btn {
 }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #1B4965;
-  border-color: #148f77;
+  background-color: #5fa8d3;
+  border-color: #5fa8d3;
   box-shadow: 0 0 0 0.2rem rgba(60, 198, 171, 0.5);
 }
 .btn-primary.disabled, .btn-primary:disabled {
@@ -10052,10 +10052,8 @@ h3 {
 }
 
 #mainNav {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
 }
 #mainNav .navbar-brand {
   color: #fff;
