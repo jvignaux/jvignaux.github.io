@@ -10136,7 +10136,7 @@ h3 {
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
-  display: block;
+  display: flex;
   max-width: 25rem;
   border-radius: 0.5rem;
   overflow: hidden;
@@ -10147,7 +10147,7 @@ h3 {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: #5FA8D3;
+  background-color: #62B6CB;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
