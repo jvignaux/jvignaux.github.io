@@ -46,7 +46,7 @@
 }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -58,7 +58,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-    font-family: 'Antic Slab', serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -85,6 +85,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  font-size: 1rem;
 }
 
 abbr[title],
@@ -179,7 +180,7 @@ pre,
 code,
 kbd,
 samp {
-    font-family: 'Open Sans', sans-serif;
+ font-family: 'Roboto', sans-serif;
 
   font-size: 1em;
 }
@@ -360,7 +361,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -374,7 +375,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 h4, .h4 {
@@ -6073,13 +6074,13 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color:#62b6cb!important;
+  background-color:#5EA7D2!important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #62B6CB!important;
+  background-color: #5EA7D2!important;
 }
 
 .bg-secondary {
@@ -9978,7 +9979,7 @@ h3 {
   }
 }
 .page-section {
-  padding: 6rem 0;
+  padding: 2rem 0;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -9986,7 +9987,7 @@ h3 {
 }
 @media (min-width: 62rem) {
   .page-section .page-section-heading {
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 2.5rem;
   }
 }
@@ -10053,11 +10054,11 @@ h3 {
 
 #mainNav {
   font-weight: 700;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #mainNav .container {
-    max-width: 87.375rem;
+    max-width: 93.375rem
 }
 #mainNav .navbar-brand {
   color: #fff;
@@ -10084,8 +10085,6 @@ h3 {
 
 @media (min-width: 62rem) {
   #mainNav {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
     transition: padding-top 0.3s, padding-bottom 0.3s;
   }
   #mainNav .navbar-brand {
@@ -10112,12 +10111,13 @@ h3 {
     font-size: 1.5em;
   }
 }
+
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
 }
 .masthead .masthead-heading {
-  font-size: 2.75rem;
+  font-size: 2rem;
   line-height: 2.75rem;
 }
 .masthead .masthead-subheading {
@@ -10128,10 +10128,6 @@ h3 {
   .masthead {
     padding-top: calc(6rem + 104px);
     padding-bottom: 6rem;
-  }
-  .masthead .masthead-heading {
-    font-size: 4rem;
-    line-height: 3.5rem;
   }
   .masthead .masthead-subheading {
     font-size: 1.5rem;
@@ -10166,7 +10162,7 @@ h3 {
 }
 @media (min-width: 62rem) {
   .portfolio-modal .portfolio-modal-title {
-    font-size: 3rem;
+    font-size: 2.3rem;
     line-height: 2.5rem;
   }
 }
@@ -10245,9 +10241,9 @@ form .row:first-child .floating-label-form-group {
     height: 16.2rem;;
     text-align: center;
     padding: 1.2rem;
-    margin-right: 12%;
-    margin-top: 8%;
+    margin-right: 8%;
     border-radius: 0.25rem;
+    box-shadow: 0.625rem 0.625rem 1.375rem 0rem rgba(0,0,0,0.5);
 }
 .second_block, .site_block {
     background: rgba(98, 182, 203);
@@ -10261,24 +10257,22 @@ form .row:first-child .floating-label-form-group {
 }
 .second_block {
     padding: 1.5rem;
-    -webkit-box-shadow: 0.625rem 0.625rem 1.375rem 0rem rgba(0,0,0,0.75);
-    -moz-box-shadow: 0.625rem 0.625rem 1.375rem 0rem rgba(0,0,0,0.75);
-    box-shadow: 0.625rem 0.625rem 1.375rem 0rem rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0.625rem 0.625rem 1.375rem 0rem rgba(0,0,0,0.5);
+    -moz-box-shadow: 0.625rem 0.625rem 1.375rem 0rem rgba(0,0,0,0.5);
+    box-shadow: 0.625rem 0.625rem 1.375rem 0rem rgba(0,0,0,0.5);
     border-radius: 0.25rem;
 }
 
 .site_block {
     border-radius: 50%;
-    padding: 2.4rem;
-    -webkit-box-shadow: 0.625rem 0.625rem 1.375rem 0rem rgba(0,0,0,0.75);
-    -moz-box-shadow: 0.625rem 0.625rem 1.375rem 0rem rgba(0,0,0,0.75);
-    box-shadow: 0.625rem 0.625rem 1.375rem 0rem rgba(0,0,0,0.75);
+    padding: 4rem;
+    -webkit-box-shadow: 0.625rem 0.625rem 1.375rem 0rem rgba(0,0,0,0.5);
+    -moz-box-shadow: 0.625rem 0.625rem 1.375rem 0rem rgba(0,0,0,0.5);
+    box-shadow: 0.625rem 0.625rem 1.375rem 0rem rgba(0,0,0,0.5);
 }
-.pilars_partOne {
-    margin-right: -12%;
-}
+
 .pilars_partTwo {
-    margin-bottom: 8%;
+    margin-top: 15%;
 }
 
 .more_block {
@@ -10288,9 +10282,29 @@ form .row:first-child .floating-label-form-group {
 .more_block {
     font-size: 1.5rem;
 }
+
+/* Bubble */
+@font-face {
+		font-family: 'SequentialistBB';
+		src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/306FA6_1_0.woff2') format('woff2'),
+		url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/306FA6_0_0.woff') format('woff');
+		font-style: normal;
+		font-weight: 400;
+		}
+	@font-face {
+		font-family: 'SequentialistBB';
+		src: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/306FA6_0_0.woff2') format('woff2'),
+		url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/306FA6_0_0.woff') format('woff');
+		font-style: italic;
+		font-weight: 400;
+		}
+* {
+  box-sizing: border-box;
+}
+
 /* Animations block */
 
-.block_animation {
+/*.block_animation {
 	-webkit-animation: bounce-in-top 1.1s both;
     	        animation: bounce-in-top 1.1s both;
 }
@@ -10398,7 +10412,7 @@ form .row:first-child .floating-label-form-group {
     -webkit-animation-timing-function: ease-out;
             animation-timing-function: ease-out;
   }
-}
+}*/
 
 
 
@@ -10448,8 +10462,7 @@ form .row:first-child .floating-label-form-group {
 }
 /* Snow animation */
 .snow {
-	position: absolute;
-	min-width: 100vw;
+	position: absolute;file:///home/julie/dev_projects/lilypro/portfolio/jvignaux.github.io/index.html#mymethodo
 	min-height: 100vh;
 	height: 100%;
 	width: 100%;
@@ -10764,12 +10777,12 @@ form .row:first-child .floating-label-form-group {
   font-family: 'Mountains of Christmas'; }
   .message h1 {
     font-style: normal;
-    font-size: 4.6875rem;
+    font-size: 2rem;
     margin-bottom: 0;
     white-space: nowrap; }
   .message h2 {
     margin: 0;
-    font-size: 1.25rem;
+    font-size: 1.125rem;
     text-align: center;
     white-space: nowrap; }
     .message h2 a {
